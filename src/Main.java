@@ -4,13 +4,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-    Books jeden = new Books (" Alicja w krainie czarow", " Lewis Caroll"," Magia",100);
+    Account  user1 = new Account (" Anna", " Suska", 10000,100);
 
-    System.out.println(jeden.bookDetails());
-     jeden.setAuthor(" Orwell");
-     System.out.println(jeden.bookDetails());
-     jeden.setPublisher(" Karakter");
-     System.out.println(jeden.bookDetails());
+
+    System.out.println(user1.getBalance());
+        user1.withdrawl(15);
+    System.out.println(user1.getBalance());
         }
 
 
