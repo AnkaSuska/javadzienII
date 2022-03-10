@@ -5,15 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String tablicaStringow[] = new String [4];
-        tablicaStringow = new String[] {"Lucy", "Mia", "Mala","Kropka"};
-        for (int i = 0; i < 4; i++){
-            System.out.println(tablicaStringow[i]);
+        String[] tydzien = new String[7];
+        tydzien = new String[] {"Poniedzialek", "Wtorek", "Sroda","Czwartek", "Piatek", "Sobota", "Niedziela"};
+        for (int i = 0; i < tydzien.length; i++){
+            System.out.println(tydzien[i]);
         }
-        System.out.println(tablicaStringow[3]);
-int x = 3;
-int y;
-System.out.println(++x);
+
 
 
     }
