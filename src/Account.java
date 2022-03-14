@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Account {
     private String name;
     private String surname;
-    private int balance;
+    private static int balance;
     private int ID;
 
     public Account(String name, String surname, int balance, int ID) {
@@ -10,13 +12,17 @@ public class Account {
         this.balance = balance;
         this.ID = ID;
 
+
     }
 
-    public int getBalance() {
-        return balance;
-    }
-    public void withdrawl(int amountOfMoney){
-        this.balance=balance-amountOfMoney;
-    }
 
+    {   Scanner scanner = new Scanner (System.in);
+        System.out.println("What's your name? ");
+        String name = scanner.nextLine();
+
+
+        System.out.println(name +" your balance is ");
+
+
+    }
 }
