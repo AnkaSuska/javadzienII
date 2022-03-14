@@ -20,8 +20,7 @@ public class Account {
         System.out.println("What's your name? ");
         String name = scanner.nextLine();
 
-
-        System.out.println(name +" your balance is ");
+        System.out.println(name +" your balance is: " + balance);
 
 
     }
